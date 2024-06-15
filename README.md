@@ -1,4 +1,6 @@
-# iechamberi-site
+# iechamberi.org
+
+Website developed for a Christian assembly using Nuxt 2, Apollo Client, Chakra UI components, and a robust CI/CD pipeline with GitHub Actions.
 
 ## Build Setup
 
