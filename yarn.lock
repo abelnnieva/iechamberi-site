@@ -1229,12 +1229,13 @@
     execa "^8.0.1"
     yargs "^17.0.0"
 
-"@commitlint/config-conventional@^12.1.4":
-  version "12.1.4"
-  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-12.1.4.tgz#95bbab622f117a8a3e49f95917b08655040c66a8"
-  integrity sha512-ZIdzmdy4o4WyqywMEpprRCrehjCSQrHkaRTVZV411GyLigFQHlEBSJITAihLAWe88Qy/8SyoIe5uKvAsV5vRqQ==
+"@commitlint/config-conventional@^19.2.2":
+  version "19.2.2"
+  resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-19.2.2.tgz#1f4e6975d428985deacf2b3ff6547e02c9302054"
+  integrity sha512-mLXjsxUVLYEGgzbxbxicGPggDuyWNkf25Ht23owXIH+zV2pv1eJuzLK3t1gDY5Gp6pxdE60jZnWUY5cvgL3ufw==
   dependencies:
-    conventional-changelog-conventionalcommits "^4.3.1"
+    "@commitlint/types" "^19.0.3"
+    conventional-changelog-conventionalcommits "^7.0.2"
 
 "@commitlint/config-validator@^19.0.3":
   version "19.0.3"
@@ -5314,14 +5315,12 @@ conventional-changelog-angular@^7.0.0:
   dependencies:
     compare-func "^2.0.0"
 
-conventional-changelog-conventionalcommits@^4.3.1:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.6.0.tgz#7fc17211dbca160acf24687bd2fdd5fd767750eb"
-  integrity sha512-sj9tj3z5cnHaSJCYObA9nISf7eq/YjscLPoq6nmew4SiOjxqL2KRpK20fjnjVbpNDjJ2HR3MoVcWKXwbVvzS0A==
+conventional-changelog-conventionalcommits@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-7.0.2.tgz#aa5da0f1b2543094889e8cf7616ebe1a8f5c70d5"
+  integrity sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w==
   dependencies:
     compare-func "^2.0.0"
-    lodash "^4.17.15"
-    q "^1.5.1"
 
 conventional-commits-parser@^5.0.0:
   version "5.0.0"
@@ -9480,7 +9479,7 @@ lodash.xorby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.xorby/-/lodash.xorby-4.7.0.tgz#9c19a6f9f063a6eb53dd03c1b6871799801463d7"
   integrity sha1-nBmm+fBjputT3QPBtocXmYAUY9c=
 
-lodash@4.17.21, lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.5, lodash@~4.17.0, lodash@~4.17.10:
+lodash@4.17.21, lodash@^4.15.0, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.5, lodash@~4.17.0, lodash@~4.17.10:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -11833,7 +11832,7 @@ pupa@^2.0.1:
   dependencies:
     escape-goat "^2.0.0"
 
-q@^1.1.2, q@^1.5.1:
+q@^1.1.2:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
